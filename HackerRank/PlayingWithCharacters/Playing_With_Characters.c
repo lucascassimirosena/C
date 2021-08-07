@@ -26,7 +26,7 @@ The third line prints the sentence, . */
 #include <stdlib.h>
 
 
-int main() //Working on this challenge yet
+int main() 
 {
 
     char ch;
@@ -38,10 +38,9 @@ int main() //Working on this challenge yet
     printf("%s\n", s);
 
     char sen[100];
-    scanf("%s", sen);
+    scanf(" %[^\n]%*c", sen);
     printf("%s", sen);
     
     
-    return 0;  printf("%s, sen");
-    
+    return 0; 
 }
