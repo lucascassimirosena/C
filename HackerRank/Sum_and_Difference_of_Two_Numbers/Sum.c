@@ -16,13 +16,15 @@ Print the sum and difference of two float variable rounded to one decimal place 
 
     int main()
     {
-        float a;
-        float b;
+        int a;
+        int b;
         int c;
         int d;
 
-        scanf("%f, %f", &a, &b);
+        scanf("%d %d", &a, &b);
         c = a + b;
         d = a - b;
-        printf("%n, %n", &c, &d);
+        printf("%d %d", c, d);
+
+        return 0;
     }
