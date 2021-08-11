@@ -31,7 +31,7 @@ Print the sum and difference of two float variable rounded to one decimal place 
     /* First it was necessary to declare de variables (lines 19-22); then
     we use scanf() to scan the user's input from standard input. We need to tell the
     computer what kind of input we're scanning and that's why we need to use %d for int
-    and %f for float. & will pint to the value in the memory adress.
+    and %f for float. & will point to the value in the memory adress.
 
     moving forward on line 25 we print the first 2 values, press entre \n and then print the float 
     valus rounded to one decimal number, that's why we need to put .1.*/
