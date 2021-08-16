@@ -1,1 +1,2 @@
 print("Welcome!")
+print("HelloMyFriend")
