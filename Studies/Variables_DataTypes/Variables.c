@@ -33,10 +33,36 @@ C requires that all program variables be declared before they're used in a progr
 int main()
 {
     int lucas; //Declared a variable
+    float x = 10.21;
+    double xd = 10.24165465450+11;
+    _Bool boolVariable = 1;
     
-
     lucas = 28; //Initialized the variable, I assigned the value 28 to the variable lucas.
     return 0;
 }
 
 /* the difference between the types is in the amount of memory they occupy and the range of values tehy can hold.
+
+*********** int *********** 
+- stores integral values only (not decimals)
+- a minus sign preceding the data type and variable indicates that the value is negative
+- it can be either a positive number, negative number or 0.
+- if an interger is preceded by a zzero and the letter x (either lowercase or uppercase),
+the value is taken as being expressed in hexadecimal (base 16) notatio:
+        int rgbColor = 0xFFEF0D;
+- It's not possible to express numbers larger than 999 using commas (15,000 must be written as 15000)
+
+*********** float *********** 
+- A variable to be of type float can be used for storing floating-point numbers(values containing deci
+mal places)
+
+*********** double *********** 
+- it's similar but larger than float
+- used whenever the range provided by a float variable is not sufficient
+- can store twice as many signifcant digits
+- most computers represent double values using 64 bits.
+
+*********** _Bool *********** 
+- used for indicating an on/off, or true/false.
+- 0 indicates a false value and 1 indicates a true value
+*/
