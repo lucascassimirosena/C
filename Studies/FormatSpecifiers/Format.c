@@ -37,5 +37,13 @@ printf ("doubleVar = %e\n", doubleVar);
 printf ("charVar = %g\n", doubleVar);
 printf ("charVar = %c\n", charVar);
 printf ("boolVar = %i\n", boolVar);
+
+/*
+To specify the number after the decimal point you can do it like this:
+*/
+float x = 3.05648760;
+
+printf("%.2f", x); //I just told the program that I want 2 decimal values not more
+
     return 0;
-}
+ }
