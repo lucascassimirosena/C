@@ -4,16 +4,18 @@ values that could be stored into that variable.
    - can create a variable named "myColor" and it can only contain one of the primary colors, red, 
     or blue, and no other values
 
-Firts, it's necessary to define an Enum type and give it a name.
+First, it's necessary to define an Enum type and give it a name.
    - initiated by the keyword enum
    - then the name of the enumarated data
    - then list of identifiers (enclosed in a set of curly braces) that define the permissible values 
     that can be assigned to the type
 */
 
+// I can bet that these Enums are necessary in GameDev
+
 enum primaryColor { red, yellow, blue};
 /*variables declared to be of this data type can be assigned the values
-red, yellow, or blue inside the program, andno other values.
+red, yellow, or blue inside the program, and no other values.
 
 to declare a variable to be of type enum primaryColor
     - Use the keyword Enum
@@ -22,7 +24,7 @@ to declare a variable to be of type enum primaryColor
 */
 
 enum primaryColor myColor, DanisColor;
-/* this defines the two variables myColor and DanisColor to be of type priamryColor
+/* this defines the two variables myColor and DanisColor to be of type primaryColor
     - The only permissible values that can be assinged to these variables are the names red,
     yellow, and blue.
     myColor = red;
@@ -41,8 +43,8 @@ left = 10 this happens because we explicity told the compiler that left = 10.
 right = 11 */
 
 /* ****** Char *******
-    - Chars represent a sinle character such as the letter 'a', the digit '7', or a semicolon (';')
-    - Character literals use single quotes such as 'A 'or 'Z'
+    - Chars represent a single character such as the letter 'a', the digit '7', or a semicolon (';')
+    - Character literals use single quotes such as 'A' or 'Z'
 
 You can also declare char variables to be unsigned
     - can be used to explicitly tell the compiler that a particular variable is signed quantity 
