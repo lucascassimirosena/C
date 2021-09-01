@@ -14,8 +14,8 @@ printf("The sum is %d\n", sum);
 The printf() function can display as output the values of variables
     - has two items or agruments enclosed within the parentheses
     - arguments are separated by a comma
-    - first argument to the printf() froutine is always the character
-    sring to be displayed
+    - first argument to the printf() f routine is always the character
+    string to be displayed
     - along with the display of the character string, you might also frequently want to have the value
      of certain program variables displayed
 
