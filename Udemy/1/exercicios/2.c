@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 int main (){
-    int numero;
+    float numero;
     printf("Digite um numero: ");
     scanf("%f", &numero);
     printf("Voce digitou: ");
