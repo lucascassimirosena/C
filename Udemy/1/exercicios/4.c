@@ -6,12 +6,11 @@
 int main (){
 
     float numero;
-    float quadrado = numero * numero;
-
     printf("Digite um numero: ");
     scanf("%f", &numero);
+
+    float quadrado = numero * numero;
     printf("O quadrado deste numero e: ");
     printf("%f", quadrado);
 }
 
-//ao executar o comando, o programa resulta em 0.00 por que?
