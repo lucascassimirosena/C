@@ -9,7 +9,7 @@ de conversão é: M = K/1.61, sendo K a distância em quilômetros e M em milhas
 int main ()
 {
     float km;
-    scanf("%f", km);
+    scanf("%f", &km);
     printf("Digite o valor em quilometros: ");
 
     float milhas;
