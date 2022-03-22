@@ -1,6 +1,6 @@
 //Ex31
 /*
-Leia umnumero inteiro e imprima seu antecessor e seu sucessor.
+Leia um numero inteiro e imprima seu antecessor e seu sucessor.
 */
 
 int main()
@@ -15,7 +15,7 @@ int main()
     antecessor = numero - 1;
     sucessor = numero + 1;
 
-    printf("Anteessor: ");
+    printf("Antecessor: ");
     printf("%d", antecessor);
     printf(" Sucessor: ");
     printf("%d", sucessor);
