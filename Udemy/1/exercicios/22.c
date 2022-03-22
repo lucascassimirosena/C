@@ -15,6 +15,6 @@ int main()
 
     float metros;
     metros = 0.91 * jardas;
-    printf("O valor em metros e: ");
+    printf("O valor em metros quadrados e: ");
     printf("%f", metros);
 }
