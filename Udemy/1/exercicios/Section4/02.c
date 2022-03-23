@@ -5,25 +5,24 @@ Se o número for negativo, mostre a mensagem dizendo que o número é inválido.
 */
 
 #include <stdio.h>
-#include <math.h>
+#include <math.h> //Tive que incluir esta biblioteca para colocar a função da raiz quadrada
 
 int main ()
 {
-    int num1, num2;
+    int num;
     printf("Digite um numero: ");
-    scanf("%d", &num1);
-    printf("Ok, digita mais um: ");
-    scanf("%d", &num2);
+    scanf("%d", &num);
 
-    if(num1 >= 0)
+    if(num > 0)
     {
         int raiz;
-        raiz = sqrt(num1);
+        raiz = sqrt(num);
         printf("%d", raiz);
     }
-
-
-
+    else
+    {
+        printf("Numero invalido");
+    }
 
     return 0;
 }
