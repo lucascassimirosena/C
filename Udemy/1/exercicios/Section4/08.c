@@ -15,12 +15,13 @@ int main ()
 
     printf("Digite a nota 1: ");
     scanf("%f", &nota1);
-    printf("Digite a nota 2: ");
-    scanf("%f", &nota2);
 
 
     if(nota1 >= 0.0 && nota1 <= 10.0)
     {
+            printf("Digite a nota 2: ");
+            scanf("%f", &nota2);
+
             float media = nota1 + nota2/2;
             printf("Sua media e %f", media);
     }
@@ -29,7 +30,8 @@ int main ()
         printf("Nota invalida.");
     }
 
-    if(nota2 >= 0.0 && nota2 <= 10.0) 
+
+    if(nota2 >= 0.0 && nota2 <= 10.0 && nota1 >= 0.0 && nota1 <= 10.0) 
     {
         float media = nota1 + nota2/2;
         printf("Sua media e %f", media);
