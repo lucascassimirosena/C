@@ -21,9 +21,6 @@ int main ()
     float vintepercento;
     vintepercento = salario * 0.20;
 
-    float salariototal;
-    salariototal = salario + vintepercento;
-
     if(prestacao <= vintepercento)
     {
         printf("Emprestimo concedido.");

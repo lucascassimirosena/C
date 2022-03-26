@@ -28,3 +28,5 @@ int main()
         printf("E sua diferenca e de %d." diferenca2);
     }
 }
+
+// NEED TO RETURN TO IT BECAUSE THE CODE ISN'T COMPILING AND I COUDN'T FIND A SOLUTION
