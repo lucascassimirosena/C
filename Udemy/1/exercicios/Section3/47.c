@@ -11,5 +11,5 @@ int main()
     printf("Digite o numero: ");
     scanf("%d", &numero);
 
-    printf("%d\n", numero);
+    printf("%d", numero);
 }

@@ -12,7 +12,7 @@ int main()
     printf("\nDigite um caracter: ");
     scanf("%c", &ch);
     char minusculo = ch + 32;
-    printf("Minúsculo: ");
+    printf("Minusculo: ");
     printf("%c", minusculo);
-
 }
+
