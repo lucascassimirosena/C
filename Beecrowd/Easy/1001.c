@@ -30,7 +30,7 @@ int main()
     scanf("%d", &B);
     
     int X = A + B;
-    printf("x = %d", X);
+    printf("X = %d", X);
     
 }
 
