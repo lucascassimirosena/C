@@ -11,16 +11,13 @@ int main()
 {
     int valor = 0;
     int soma = 0; 
-    int vez;
-
-    printf("Digite um valor: ");
-    scanf("%d\n", &valor);
+    int vez = 0;
 
     while(vez < 10)
     {
         soma = valor + soma;
         printf("Digite um valor: ");
-        scanf("%d\n", &valor);
+        scanf("%d", &valor);
         vez++;
     }
     printf("A soma e %d", soma);
