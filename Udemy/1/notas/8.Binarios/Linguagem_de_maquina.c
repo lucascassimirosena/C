@@ -35,3 +35,14 @@ C permite que façamos operações em "baixo nível" com variávei sdo tipo char
 ~   NOT (Não)
 >>  Deslocamento de bits à direita
 <<  Deslocamento de bits à esquerda
+
+
+-----------------------------------------------------------------------------
+HEXADECIMAIS:
+
+Temos 16 algarismos para represental o que precisamos
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+
+1 byte = 8bits
+
+
