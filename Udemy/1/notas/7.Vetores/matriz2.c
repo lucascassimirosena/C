@@ -25,7 +25,7 @@ int main()
     [00] [01]
     [10] [11]
     */
-  int numeros [2] [2];
+  int numeros [5] [5];
   numeros [0] [0] = 1;
   numeros [0] [1] = 2;
   numeros [1] [0] = 3;
@@ -38,5 +38,4 @@ int main()
           printf("numeros [%d][%d] vale %d\n", i, j, numeros[i][j]);
       }
   }
-
 }
