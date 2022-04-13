@@ -25,5 +25,4 @@ int main()
 
     printf(" Depois de incrementar. \n");
     printf("O contador vale %d", contador);
-
 }
