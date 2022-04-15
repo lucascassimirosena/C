@@ -11,5 +11,15 @@ int ft_square(int n)
 {
     int number;
 
-    
+    while( n % number == number)
+    {
+        printf("Quadrado Perfeito.");
+    } 
+}
+
+int main()
+{
+    int num = 3;
+    ft_square(num);
+
 }
