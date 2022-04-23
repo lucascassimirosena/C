@@ -1,3 +1,4 @@
+//Ex07
 /* 
 Faça um programa que leia 10 inteiros positivos, ignorando os não positivos,
 e imprima sua média.
@@ -6,7 +7,7 @@ e imprima sua média.
 #include <stdio.h>
 
 int main()
-    {
+{
     int i = 0;
     int number = 0;
     int sum = 0;
@@ -19,8 +20,8 @@ int main()
         if(number > 0)
         {
         sum = number + sum;
-        i++;
         }
+        i++;
     }
     average = sum / 10;
     printf("A Soma e: %d\n", sum);
