@@ -11,26 +11,21 @@ nãoo for maior do que zero, o programa terminará com a mensagem
 
 int main()
 {
-    int numero;
-    int numero2;
-    int numero3;
+
+    int num;
 
 
     printf("Escreva um numero inteiro: ");
-   
-    
-
-    int total = numero + numero2 + numero3;
-
-    if(total > 0)
+    if(num[3])
     {
-        printf("%d", total);
+        *num = num[0] + num[1] + num[2];
+        printf("%d", num);
     }
     else
     {
-        printf("Numero invalido.");
+        printf("Invalido.");
     }
+
 }
 
-
-//WORKING ON THIS SOLUTION
+// NOT CONLCUDED YET
