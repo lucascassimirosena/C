@@ -9,6 +9,31 @@ maior valor lido.
 int main()
 {
     int i = 0;
-    int 
+    int num, maior, menor;
+
+    while(i < 10)
+    {
+        num = 0;
+        printf("Digite um numero: ");
+        scanf("%d", &num);
+        menor = 0;
+        maior = 0;
+        if(num < maior)
+        {
+            if(num < menor)
+            {
+            menor = num;
+            }
+        }
+        else if(num > maior)
+        {
+            maior = num;
+        }
+        i++;
+    }
+    printf("O menor numero e: %d\n", menor);
+    printf("O maior numero e: %d", maior);
+
+    
 
 }
