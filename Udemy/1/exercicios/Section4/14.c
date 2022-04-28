@@ -13,16 +13,57 @@ de recupração (entre 3 e 4,9) ou se foi aprovado. Faça todas as verificaçõe
 int main()
 {
     int nota1, nota2, nota3;
+    int nLab, sem, exam;
 
-    printf("Digite a nota: \n");
+    printf("Digite a nota: ");
     scanf("%d", &nota1);
-    if(nota1 >)
-    printf("Digite a nota: \n");
+        if(nota1 <= 2)
+        {
+            nLab = nota1;
+        }
+        else
+        {
+        printf("Nota invalida.\n");
+        }
+
+    printf("Digite a nota: ");
     scanf("%d", &nota2);
-    printf("Digite a nota: \n");
+        if(nota2 <= 3)
+        {
+            sem = nota2;
+        }
+        else
+        {
+            printf("Nota invalida.\n");
+        }
+
+    printf("Digite a nota: ");
     scanf("%d", &nota3);
+        if(nota3 <= 5)
+        {
+            exam = nota3;
+        }
+        else
+        {
+            printf("Nota Invalida");
+        }
+
+        float sum;
+        sum = nLab + sem + exam;
+        if(sum >= 0 && sum <= 2.9)
+        {
+            printf("Voce esta reprovado.");
+        }
+        else if(sum >= 3 && sum <= 4.9)
+        {
+            printf("Voce esta de recuperacao.");
+        }
+        else
+        {
+            printf("Aprovado.");
+        }
+    
 
 
 }
 
-//Still working on it
