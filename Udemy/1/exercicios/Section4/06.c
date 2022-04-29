@@ -9,24 +9,23 @@ int main()
 {
     int num1, num2;
     printf("Numero 1: ");
-    scanf("%i", &num1);
+    scanf("%d", &num1);
 
     printf("Numero 2: ");
-    scanf("%i", &num2);
+    scanf("%d", &num2);
 
     if(num1 > num2)
     {
 
-        printf("O numero %i, e maior que o numero %i." num1, num2);
+        printf("O numero %d, e maior que o numero %d.\n", num1, num2);
         int diferenca = num1 - num2;
-        printf("E a diferenca entre os numeros e de %i", diferenca);
+        printf("E a diferenca entre os numeros e de %d", diferenca);
     }
     else
     {
-        printf("O numero %i e maior que o numero %i." num2, num1);
+        printf("O numero %d e maior que o numero %d.\n", num2, num1);
         int diferenca2 = num2 - num1;
-        printf("E sua diferenca e de %d." diferenca2);
+        printf("E sua diferenca e de %d.", diferenca2);
     }
 }
 
-// NEED TO RETURN TO IT BECAUSE THE CODE ISN'T COMPILING AND I COUDN'T FIND A SOLUTION
