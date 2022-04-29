@@ -5,6 +5,7 @@ Se o número for postivo, caluclar o logarítimo deste número.
 */
 
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
@@ -17,7 +18,8 @@ int main()
     }
     else
     {
+        log(num);
+        printf("O logaritmo e %lf .", log(num));
 
     }
 }
-// working on it
