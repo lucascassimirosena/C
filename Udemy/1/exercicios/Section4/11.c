@@ -28,4 +28,4 @@ int main()
 
 }
 
-// NOT CONLCUDED YET
+// NOT SOLED YET
