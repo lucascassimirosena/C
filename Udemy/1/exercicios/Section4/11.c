@@ -28,4 +28,4 @@ int main()
 
 }
 
-// NOT SOLED YET
+// NOT SOLVED YET
