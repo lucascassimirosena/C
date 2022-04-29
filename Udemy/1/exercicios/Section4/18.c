@@ -18,18 +18,49 @@ int main()
     printf("    Soma: 1\n    Subtracao: 2\n    Divisao: 3\n    Multiplicacao: 4\n");
     printf("Digite o numero da operacao desejada: ");
 
-    switch(num)
-    {
-        case 1:
-        printf("Digite um numero: \n");
-        scanf("%d", &n1);
-        printf("Digite outro numero: \n");
-        scanf("%d", &n2);
+    scanf("%d", &num);
+        if(num == 1)
+        {
+            printf("Numero 1: ");
+            scanf("%d", &n1);
+            printf("Numero 2: ");
+            scanf("%d", &n2);
 
-        sum = n1 + n2;
-        printf("A soma e %d", sum);
-        break;
+            sum = n1 + n2;
+            printf("A soma e: %d", sum);
+        }
+        if(num == 2)
+        {
+            printf("Numero 1: ");
+            scanf("%d", &n1);
+            printf("Numero 2: ");
+            scanf("%d", &n2);
 
-    }
+            sub = n1 - n2;
+            printf("A diferenca e de: %d", sub);
+        }
+        if(num == 3)
+        {
+            printf("Numero 1: ");
+            scanf("%d", &n1);
+            printf("Numero 2: ");
+            scanf("%d", &n2);
+
+            div = n1 / n2;
+            printf("O resultado e: %d", div);
+        }
+        if(num == 4)
+        {
+            printf("Numero 1: ");
+            scanf("%d", &n1);
+            printf("Numero 2: ");
+            scanf("%d", &n2);
+
+            mult = n1 * n2;
+            printf("O resultado e: %d", mult);
+        }
+
+
+
 }
 //FINISH IT
