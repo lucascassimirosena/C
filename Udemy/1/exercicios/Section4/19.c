@@ -13,8 +13,16 @@ int main()
     printf("Digite um numero: ");
     scanf("%d", &num);
 
-    if(num % 5 == 0)
+    if(num % 5 == 0 && num % 3 == 0)
     {
-        printf("Divisivel por 5");
+        printf("Nao Divisivel");
     }
+    else if(num % 5 == 0 || num % 3 == 0)
+    {
+        printf("Divisivel");
+    }
+    else
+        printf("Invalido");
 }
+
+// Conftinue
