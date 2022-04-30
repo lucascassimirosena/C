@@ -22,7 +22,5 @@ int main()
         printf("Divisivel");
     }
     else
-        printf("Invalido");
+        printf("Nao Divisivel");
 }
-
-// Conftinue
