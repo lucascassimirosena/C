@@ -34,9 +34,13 @@ int main()
     {
         finalPrice = price * 0.15;
     }
-    else
+    else if(state == "MS")
     {
         finalPrice = price * 0.08;
+    }
+    else
+    {
+        printf("Estado invalido.");
     }
 
     printf("\nO valor final do produto e: ");
