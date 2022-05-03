@@ -9,3 +9,33 @@ NúmeroGerado = 321
 
 */
 
+#include <stdio.h>
+
+int main()
+{
+
+    int value;
+    int unidade, dezena, centena, invertido;
+
+ 
+    printf("Digite um numero de 100 a 999: ");
+    scanf("%d", &value);
+
+    if(value >= 100 <= 999)
+    {
+        unidade = value % 10;
+        dezena = (value % 100) / 10;
+        centena = value / 10;
+
+        invertido = unidade * 100 + dezena * 100 + centena;
+    }
+    else
+    { 
+        printf("Invalido");
+    }
+    printf("O valor desse numero, invertido e: %d", invertido);
+
+
+    
+}
+
