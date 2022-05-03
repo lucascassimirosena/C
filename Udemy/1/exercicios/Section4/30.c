@@ -15,7 +15,7 @@ int main()
     printf("Digite um numero: ");
     scanf("%d", &c);
 
-        if(a < b && b < c || a < c && c > b && b > a)
+        if(a < b && b < c || a < c && c > b && b > a || b > a < c > b)
         {
             printf("%d %d %d", a, b, c);
         }
@@ -23,38 +23,38 @@ int main()
         {
             printf("%d %d %d", c, b, a);
         }
-        else if(a < c && c < b)
+        else if(a < c && c < b || b > c > a)
         {
             printf("%d %d %d", a, c, b);
         }
-
-        else if(a > c && c < b && b > a)
+        else if(a > c && c < b && b > a || b > a > c)
         {
             printf("%d %d %d", c, a, b);
         }
-        else if(a < c && c > b && a > b)
+        else if(a < c && c > b && a > b || b < a < c)
         {
             printf("%d %d %d", b, a, c);
         }
+        else if(b < c < a)
+        {
+            printf("%d %d %d", b, c, a);
+        }
 
-    
-        if()
-    
+        else if(b < a > c < b)
+        {
+            printf("%d %d %d", c, b, a);
+        }
+
+        else if(b < a > c > b)
+        {
+            printf("%d %d %d", b, c, a);
+        }
+
+
 }  
 
-
 /*
-Validações por a, foram feitas. Faltam as seguintes:
-
-
-b > a > c
-b > c > a
-b < a < c
-b < c < a
-b < a > c < b
-b < a > c > b
-b > a < c > b
-b > a < c < b
+Validações por a e b, foram feitas. Faltam as seguintes:
 
 c > a > b
 c > b > a
@@ -63,3 +63,4 @@ c < a < b
 c < b > a
 c > b < a
 */
+
