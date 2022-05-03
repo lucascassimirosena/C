@@ -39,3 +39,11 @@ int main()
     
 }
 
+//Terminar
+// Terminar 36
+
+/*
+Artigo que encontrei sobre inversão de números:
+https://wagnergaspar.com/duvida-como-inverter-um-numero-com-a-linguagem-portugol/#:~:text=Observe%20que%20inverter%20um%20n%C3%BAmero,obtemos%20o%20n%C3%BAmero%20original%20invertido.
+*/
+
