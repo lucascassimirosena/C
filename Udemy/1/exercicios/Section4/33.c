@@ -38,4 +38,21 @@ int main()
         newPrice = oldPrice + percentage;
         printf("O novo preco e: %f", newPrice);
     }
+
+        if(newPrice < 80)
+        {  
+            printf(" Barato!");
+        }
+        else if(newPrice >= 80 && newPrice <= 120)
+        {
+            printf(" Normal");
+        }
+        else if(newPrice >= 120 && newPrice <= 200)
+        {
+            printf(" Caro");
+        }
+        else if(newPrice > 200)
+        {
+            printf(" Muito caro");
+        }
 }
