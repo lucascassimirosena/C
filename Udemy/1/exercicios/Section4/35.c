@@ -31,6 +31,7 @@ int main()
                 {
                     printf("Data invalida");
                 }
+                break;
             }
             case 2:
             {
@@ -42,6 +43,7 @@ int main()
                 {
                     printf("Data invalida");
                 }
+                break;
             }
 
             case 3:
@@ -54,6 +56,7 @@ int main()
                 {
                     printf("Data invalida");
                 }
+                break;
             }
 
             case 4:
@@ -66,6 +69,7 @@ int main()
                 {
                     printf("Data invalida");
                 }
+                break;
             }
 
             case 5:
@@ -78,6 +82,7 @@ int main()
                 {
                     printf("Data invalida");
                 }
+                break;
             }
 
             case 6:
@@ -90,6 +95,7 @@ int main()
                 {
                     printf("Data invalida");
                 }
+                break;
             }
 
             case 7:
@@ -102,6 +108,7 @@ int main()
                 {
                     printf("Data invalida");
                 }
+                break;
             }
 
             case 8:
@@ -114,6 +121,7 @@ int main()
                 {
                     printf("Data invalida");
                 }
+                break;
             }
 
             case 9:
@@ -126,6 +134,7 @@ int main()
                 {
                     printf("Data invalida");
                 }
+                break;
             }
 
             case 10:
@@ -138,6 +147,7 @@ int main()
                 {
                     printf("Data invalida");
                 }
+                break;
             }
 
             case 11:
@@ -150,6 +160,7 @@ int main()
                 {
                     printf("Data invalida");
                 }
+                break;
             }
 
             case 12:
@@ -162,14 +173,8 @@ int main()
                 {
                     printf("Data invalida");
                 }
+                break;
             }
         }
-
-
-
-
-
-
-
 
 }
