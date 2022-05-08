@@ -41,21 +41,21 @@ int main()
         newWage = wage + percentage + bonus;
         printf("Seu novo salario e de %d", newWage);
     }
-    else if(wage >= 500 < 1000 && workTime >= 1 <= 3)
+    else if(wage >= 500 && wage < 1000 && workTime >= 1 <= 3)
     {
         percentage = wage * 0.20;
         bonus = 100;
         newWage = wage + percentage + bonus;
         printf("Seu novo salario e de %d", newWage);
     }
-    else if(wage >= 1000 < 1500 && workTime >= 4 <= 6)
+    else if(wage >= 1000 && wage < 1500 && workTime >= 4 <= 6)
     {
         percentage = wage * 0.15;
         bonus = 200;
         newWage = wage + percentage + bonus;
         printf("Seu novo salario e de %d", newWage);
     }
-    else if(wage >= 1500 < 2000 && workTime >= 7 <= 10)
+    else if(wage >= 1500 && wage < 2000 && workTime >= 7 <= 10)
     {
         percentage = wage * 0.10;
         bonus = 300;
@@ -70,6 +70,6 @@ int main()
         printf("Seu novo salario e de %d", newWage);
     }
     else
-        prinf("Invalido");
+        printf("Invalido");
 
 }
