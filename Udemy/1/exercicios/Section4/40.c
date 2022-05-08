@@ -1,4 +1,4 @@
-//Ex41
+//Ex40
 /*
 O custo ao consumidor de um carro novo é a soma do custo de fábrica, da 
 comissão do distribuidor, e dos impostos. A comissão e os imposstos são caluclados
