@@ -27,7 +27,7 @@ int main()
         final = cost + comission + taxes;
         printf("O custo do carro e de: %d", final);
     }
-    else if(cost >= 12000 <= 25000)
+    else if(cost >= 12000 && cost <= 25000)
     {
         comission = cost * 0.10;
         taxes = cost * 0.15;
