@@ -40,7 +40,7 @@ int main()
 }
 
 //Terminar
-// Terminar 36
+// Terminar 46
 
 /*
 Artigo que encontrei sobre inversão de números:

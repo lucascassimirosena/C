@@ -7,9 +7,9 @@ digito por linha.
 
 int main()
 {
-    int numero;
+    char number[4];
     printf("Digite o numero: ");
-    scanf("%d", &numero);
+    scanf("%c", &number);
 
-    printf("%d", numero);
+    printf("%c", number[4]);
 }
