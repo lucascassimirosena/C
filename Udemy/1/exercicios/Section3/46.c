@@ -14,36 +14,15 @@ NúmeroGerado = 321
 int main()
 {
 
-    int value;
-    int unidade, dezena, centena, invertido;
+    char num[3];
+    int size, i;
+    printf("Digite um numero de 3 digitos: ");
+    scanf("%3[^\n]", num);
+    size = strlen(num);
+        for(i = size - 1; i >= 0; i--)
+        {
+        printf("%c", num[i]);
+        }
 
- 
-    printf("Digite um numero de 100 a 999: ");
-    scanf("%d", &value);
-
-    if(value >= 100 <= 999)
-    {
-        unidade = value % 10;
-        dezena = (value % 100) / 10;
-        centena = value / 10;
-
-        invertido = unidade * 100 + dezena * 100 + centena;
-    }
-    else
-    { 
-        printf("Invalido");
-    }
-    printf("O valor desse numero, invertido e: %d", invertido);
-
-
-    
 }
-
-//Terminar
-// Terminar 46
-
-/*
-Artigo que encontrei sobre inversão de números:
-https://wagnergaspar.com/duvida-como-inverter-um-numero-com-a-linguagem-portugol/#:~:text=Observe%20que%20inverter%20um%20n%C3%BAmero,obtemos%20o%20n%C3%BAmero%20original%20invertido.
-*/
 
