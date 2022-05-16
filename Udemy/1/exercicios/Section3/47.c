@@ -7,17 +7,22 @@ digito por linha.
 
 int main()
 {
-    int num;
+    int num, first, second, third, fourth;
 
     printf("Digite um numero inteiro de 1000 a 9999: ");
     scanf("%d", &num);
 
-    if(num >= 1000 && num <= 9999)
-    {
-        printf("%d", num);
+    first = num / 1000 % 10;
+    second = num / 100 % 10;
+    third = num / 10 % 10;
+    fourth = num / 1 % 10;
 
-    }
+    printf("%d", first);
+    printf("\n%d", second);
+    printf("\n%d", third);
+    printf("\n%d", fourth);
+
 
 }
 
-//CONTINUAR
+
