@@ -6,6 +6,7 @@ com tela.
 */
 
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
@@ -17,10 +18,10 @@ int main()
     printf("Insira a largura: ");
     scanf("%f", &l);
     printf("Qual e o valor do metro? ");
-    scanf("%f", cost);
+    scanf("%f", price);
 
-    size = c * l;
-    price = size * cost;
+    size = (c * 2) + (l * 2);
+    cost = size * price;
 
-    printf("%f", price);
+    printf("%.2f", cost);
 }
