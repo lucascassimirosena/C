@@ -10,67 +10,41 @@ um ganharia do prêmio com base no valor investido.
 
 int main()
 {
-    float prize, player1, player2, player3;
-    int count, player;
+    float prize, player1, player2, player3, sum;
+    int num;
     
+    printf("Qual e o valor do premio? ");
+    scanf("%d", &prize);
+
     printf("Quanto o apostador 1 ira investir? ");
     scanf("%f", &player1);
-    printf("Quanto o apostador 2 irá investir? ");
+    printf("Quanto o apostador 2 ira investir? ");
     scanf("%f", &player2);
     printf("Quanto o apostador 3 ira investir? ");
     scanf("%f", &player3);
 
-    char answer;
-    printf("Responda S ou N");
-    printf("\nO apostador 1 ganhou a aposta?");
-    scanf("%c", &answer);
-        if(answer == 'S')
-        {
-            count++;
-        }
-        else
-        {
-            printf("Que pena.");
-        }
+    printf("Quantos apostadores acertaram?");
+    scanf("%d", &num);
 
-    printf("\nO apostador 2 ganhou a aposta?");
-    scanf("%c", &answer);
-        if(answer == 'S')
-        {
-            count++;
-        }
-        else
-        {
-            printf("Que pena.");
-        }
-
-    printf("\nO apostador 3 ganhou a aposta?");
-    scanf("%c", &answer);
-        if(answer == 'S')
-        {
-            count++;
-        }
-        else
-        {
-            printf("Que pena.");
-        }
-
-    if(count == 0)
+    sum = 0;
+    switch(num)
     {
-        printf("Que pena.");
-    }
-    else if(count == 1);
-    {
-        printf("Qual apostador venceu? ");
-        scanf("%d", &player);
-        switch(player)
-        {
-            case 1:
-            prize = player1 + player1;
-            printf("O valor a receber e de %d", prize);
-        }
-    }
+        case 1:
+        sum = prize;
+        printf("O premio e de %f ", sum);
+        break;
 
-    
+        case 2:
+        sum = prize / 2;
+        printf("O premio e de %f ", sum);
+        break;
 
+        case 3:
+        sum = prize / 3;
+        printf("O premio e de %f ", sum);
+        break;
+
+        default:
+        printf("Invalido.");
+    }
 }
