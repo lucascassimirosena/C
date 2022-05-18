@@ -23,7 +23,7 @@ int main()
     printf("Opcao: ");
     scanf("%d", &value);
 
-    int mult, pond, arit;
+    int mult, pond, aritSum, aritDiv;
     switch(value)
     {
         case 1:
@@ -42,8 +42,9 @@ int main()
         break;
 
         case 4:
-        arit = num1 + num2 + num3 / 3;
-        printf("%d", arit);
+        aritSum = num1 + num2 + num3;
+        aritDiv = aritSum / 3;
+        printf("%d", aritDiv);
         break;
 
         default:
@@ -54,4 +55,4 @@ int main()
     }
 }
 
-//INCOMPLETA, valor do case 4 esta errado.
+// Resolver harmonica
