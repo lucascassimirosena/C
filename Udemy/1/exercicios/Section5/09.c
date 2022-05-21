@@ -13,7 +13,7 @@ int main()
     scanf("%d", &num);
 
     i = 0;
-    while(i <= 10)
+    while(i <= 5)
     {
         if(num % 2 != 0)
         {
