@@ -8,7 +8,7 @@ todos os números pares de 0 até N em ordem crescente.
 
 int main()
 {
-    int num, even, i;
+    int num, even;
 
     printf("Digite um numero positivo par: ");
     scanf("%d", &num);
