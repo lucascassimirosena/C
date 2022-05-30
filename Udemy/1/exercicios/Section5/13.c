@@ -17,6 +17,7 @@ int main()
    do
    {
         printf("%d", even);
+        printf(" ");
         even = even + 2;
    }
     while (even < num + 2);
