@@ -9,7 +9,26 @@ serem lidos deve ser fornecida pelo usuário.
 
 int main()
 {
-    int num, times, i;
+    int num, times, i, biggest;
 
-    
+    printf("Este e um programa que compara numeros.");
+    printf("\nDigite quantos numeros voce quer comparar ");
+    printf("\n: ");
+    scanf("%d", &times);
+
+    biggest = 0;
+    for(i = 0; i < times; i++)
+    {
+        printf("Digite um numero: ");
+        scanf("%d", &num);
+
+        if(num > biggest)
+        {
+            biggest = num;
+        }
+    }
+
+    printf("%d", biggest);
+
+
 }
