@@ -35,6 +35,6 @@ int main()
 
 /*
 Most of the exercise is correct but it's returning a wrong value
-whe it executes line 32. 
+when it executes the line 32. 
 The counter isn't counting it correctly.
 */
