@@ -8,37 +8,35 @@ maior valor lido.
 
 int main()
 {
-    int i = 0;
-    int num, maior, menor;
-
-    while(i < 10)
+  int num, maior = 0, menor = 0, i=0;
+ 
+    printf("Digite um numero: ");
+    scanf("%d",&num);
+    
+    menor = num;
+    maior = num;
+    
+    for(i = 1; i < 10; i++)
     {
-        num = 0;
+    
         printf("Digite um numero: ");
-        scanf("%d", &num);
-        menor = 0;
-        maior = 0;
-        if(num < maior)
+        scanf("%d",&num);
+    
+        if(num > maior) 
         {
-            if(num < menor)
-            {
+        maior = num;
+        }
+        else if(num < menor) 
+        {
             menor = num;
-            }
         }
-        else if(num > maior)
-        {
-            maior = num;
-        }
-        i++;
     }
-    printf("O menor numero e: %d\n", menor);
-    printf("O maior numero e: %d", maior);
+    printf ("Menor: %d Maior: %d\n",menor, maior);
+    
+    return 0;
+        
 
     
 
 }
 
-/*
-Este exercícios ainda não foi concluído
-voltar e resolver o exercício.
-*/
