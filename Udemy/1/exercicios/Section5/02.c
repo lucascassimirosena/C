@@ -19,8 +19,3 @@ int main()
     }
     return 0;
 }
-
-/*
-Fiz estes exercícios usando While pois estava no período pré basecamp 42.
-Desta forma eu queria praticar para quando começasse.
-*/
