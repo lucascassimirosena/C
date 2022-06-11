@@ -1,40 +1,25 @@
 //Ex19
 /*
-Escreva um algoritmo que leia certa quantidade de números e imprima o maior
-deles quantas vezes o maior número foi lido. A quantidade de números a serem lidos 
-deve ser fornecida pelo usuário.
+Escreva um algoritmo que leia um numero entre 100 e 999 e imprima na saída
+cada um dos algarismo que compôem o número.
 */
 
 #include <stdio.h>
 
 int main()
 {
-    int i, iBig, num, times, biggest;
+    int num, unit, dec, cen;
 
-    printf("Este e um programa que compara numeros.");
-    printf("\nDigite quantos numeros devem ser comparados: ");
-    scanf("%d", &times);
+    printf("Escreva um numero entre 100 e 999");
+    scanf("%d", &num);
 
-    biggest, iBig = 0;
-    for(i = 0; i < times; i++)
+    do
     {
-        printf("Digite um numero: ");
-        scanf("%d", &num);
+        cen = num / 100;
+    } while (/* ???? */);
+    
 
-        if(num >= biggest)
-        {
-            biggest = num;
-            iBig++;
-        }
-    }
-
-        printf("\nO maior numero e: %d", biggest);
-        printf("\nEste numero foi digitado %d vezes", iBig);
 
 }
 
-/*
-Most of the exercise is correct but it's returning a wrong value
-when it executes the line 32. 
-The counter isn't counting it correctly.
-*/
+// solving

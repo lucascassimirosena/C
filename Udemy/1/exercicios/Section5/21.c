@@ -28,14 +28,12 @@ int main()
                sub = num1 - 2;
                sum = sub + 
             } 
-            while (/* condition */);
+            while (/* ??? */);
              
 
 
         }
 
     }
-
-
 
 }
