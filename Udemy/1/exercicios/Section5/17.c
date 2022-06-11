@@ -5,24 +5,21 @@ primeiros números naturais
 */
 
 #include <stdio.h>
-int main()
+int main() 
 {
-    int num, sum, i, inum;
-
-    printf("Digite umn numero: ");
-    scanf("%d", &num);
-
-    i = 0;
-    inum = i + 1;
-    do
-    {
-        sum = i + inum;
-        i++;
-        inum++;
-    } while (i < num );
     
-    printf("%d", sum);
-
+   int num, soma, i;
+   
+   printf("Informe um numero inteiro: ");
+   scanf("%d",&num);
+   
+   soma = 0;
+   for(i = 0; i <= num; i++)
+   {
+       soma = soma + i;
+   }
+        printf("%d\n",soma);
+    
+   
+    return 0;
 }
-
-//Return to it
