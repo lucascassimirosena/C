@@ -23,14 +23,6 @@ int main()
     {
         if(num1 % 2 == 0)
         {
-            do
-            {
-               sub = num1 - 2;
-               sum = sub + 
-            } 
-            while (/* ??? */);
-             
-
 
         }
 
