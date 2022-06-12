@@ -8,14 +8,12 @@ valores lidos.
 int main()
 {
     int value[5];
-    int i;
 
-    while(i <= 5)
-    {
+
     printf("Digite um valor: ");
     gets(value[0]);
-    i++;
-    }
+
+
 
     printf("%d", value[0]);
     
