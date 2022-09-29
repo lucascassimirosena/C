@@ -30,16 +30,4 @@ int main()
 
 
     return 0;
-=======
-
-int main()
-{
-    int a[5];
-
-    printf("Digite algo");
-    gets(a[5]);
-
-
-    printf("%d", a);
->>>>>>> 3879e6fd6c9b587f72183ea327a9b785c6909e1f
 }
