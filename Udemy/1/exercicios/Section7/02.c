@@ -8,35 +8,40 @@ valores lidos.
 int main()
 {
     int value[5];
-    int v0, v1, v2, v3, v4, v5;
+    int i;
 
-    v0 = value[0];
-    printf("Digite um valor: ");
-    gets(value[0]);
+    for (i= 0; i <= 5; i++)
+    {
+        printf("Enter a value %d: ", i+1);
+        scanf("%d", &value[i]);
+    }
 
-    v1 = value[1];
-    printf("Digite um valor: ");
-    gets(value[1]);
+    for (i = 0; i <= 5; i++)
+    {
+        printf("Number %d = %d\n", i+1, value[i]);
+    }
 
-    v2 = value[2];
-    printf("Digite um valor: ");
-    gets(value[2]);
-
-    v3 = value[3];
-    printf("Digite um valor: ");
-    gets(value[3]);
-
-    v4 = value[4];
-    printf("Digite um valor: ");
-    gets(value[4]);
-
-    v5 = value[5];
-    printf("Digite um valor: ");
-    gets(value[5]);
-
-
-    printf("%d", v0);
 }
+
+
+/*
+
+int main()
+{
+    int number[3],
+        indice;
+ 
+        for(indice=0 ; indice <= 2 ; indice++)
+        {
+            printf("Entre com o numero %d: ", indice+1);
+            scanf("%d", &number[indice]);
+        }
+ 
+        for(indice=0 ; indice <= 2 ; indice++)
+            printf("Numero %d = %d\n", indice+1, number[indice]);
+ 
+}
+*/
 
 
 // I STILL NEED TO WORK ON IT.

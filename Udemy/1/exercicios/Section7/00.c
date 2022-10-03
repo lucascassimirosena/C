@@ -1,13 +1,5 @@
 #include <stdio.h>
-<<<<<<< HEAD
-// Vetores
 
-// Array uni-dimensional
-/* 
-
-char nome[5];
-
-*/
 
 int main()
 {
@@ -36,7 +28,7 @@ int main()
     float valores[5];
 
     //imprimindo as letras e seus valores em decimal
-    for(int i =0; i < 26; i++)
+    for (int i = 0; i < 26; i++)
     {
         printf("%d == %c\n", letras[i], letras[i]);
     }
